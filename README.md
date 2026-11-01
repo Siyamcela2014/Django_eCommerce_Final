@@ -77,13 +77,13 @@ The application also includes templates, migrations, and tests within the releva
 Replace `<repo-link>` with the actual URL of the GitHub repository.
 
 ```bash
-git clone <repo-link>
+git clone https://github.com/Siyamcela2014/Django_eCommerce_Final.git
 ```
 
 ### 2. Enter the Project Directory
 
 ```bash
-cd <created-folder>
+cd Django_eCommerce_Final
 ```
 
 ### 3. Create a Virtual Environment
