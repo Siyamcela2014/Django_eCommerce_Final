@@ -206,3 +206,17 @@ For actual email delivery, configure an appropriate email backend and its creden
 ## Assignment
 
 Developed as part of the HyperionDev Django eCommerce Application assignment.
+## Windows Setup
+
+1. Install Python 3.13 and MySQL Server.
+2. Create a virtual environment: `python -m venv venv`.
+3. Activate it: `.\venv\Scripts\Activate.ps1`.
+4. Install dependencies: `pip install -r requirements.txt`.
+5. Copy configuration: `Copy-Item .env.example .env`.
+6. Add your own SECRET_KEY and MySQL DB_PASSWORD to .env.
+7. Create the MySQL database named ecommerce_db.
+8. Run migrations: `python manage.py migrate`.
+9. Start the application: `python manage.py runserver`.
+10. Run tests: `python manage.py test`.
+
+Never commit .env or expose passwords and secret keys.
